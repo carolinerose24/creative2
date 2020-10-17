@@ -124,14 +124,16 @@ label {
 .check1 {
   width: 40%;
   display: inline;
-  font-size: 16pt;
+  font-size: 18pt;
+  margin-bottom: 10px;
 }
 
 .check2 {
   width: 40%;
   display: inline;
-  margin: 0 0 0 30px;
-  font-size: 16pt;
+  /* margin: 0 0 0 30px; */
+  font-size: 18pt;
+  margin-top: 10px;
 }
 
 #joke {
