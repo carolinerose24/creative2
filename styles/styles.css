@@ -29,6 +29,7 @@ h2 {
   color: #4f8a8b;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  padding-bottom: 15px;
 }
 
 .title-bar {
@@ -56,7 +57,8 @@ button {
   /* padding: 10px 60px; */
   /* padding: 60px 360px; */
   width: 80%;
-  height: 100px;
+  /* height: 100px; */
+  height: 60px;
   background-color: #ea907a;
   display: block;
   margin: 10px auto;
@@ -94,6 +96,7 @@ label>input[type="radio"]+*::before {
   /*change these to change the size of it*/
   height: 1.5rem;
   /* margin-right: 0.3rem; */
+  /* margin-top: 5px; */
   margin-right: 10px;
   border-radius: 50%;
   border-style: solid;
@@ -115,22 +118,25 @@ label>input[type="radio"]:checked+* {
 
 label {
   /* margin: 10px; */
-  width: 50%;
+  /* width: 50%; */
 }
 
 .check1 {
   width: 40%;
   display: inline;
+  font-size: 16pt;
 }
 
 .check2 {
   width: 40%;
   display: inline;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 30px;
+  font-size: 16pt;
 }
 
 #joke {
   margin: 0 15px;
+  font-size: 15pt;
 }
 
 .footer {
