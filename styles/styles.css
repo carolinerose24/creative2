@@ -1,24 +1,45 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url('fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url('fonts/Open_Sans/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
 body {
   background-color: #ffcb74;
   padding: 0;
   margin: 0;
   font-size: 36pt;
+  font-family: 'Montserrat', sans-serif;
 }
 
+/* h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+} */
 h2 {
   color: #4f8a8b;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .title-bar {
   font-size: 36pt;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .page-wrap {
   background-color: #f4f6ff;
   margin: 0;
-  padding: 10px;
+  padding: 15px;
 }
 
 .buttons {
@@ -39,11 +60,12 @@ button {
   font-size: 36pt;
   text-align: left;
   padding: 0 0 0 30px;
+  font-family: 'Montserrat';
 }
 
 .radio {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 
 /* input {
@@ -63,9 +85,9 @@ label>input[type="radio"]+*::before {
   content: "";
   display: inline-block;
   vertical-align: unset;
-  width: 2rem;
+  width: 2.5rem;
   /*change these to change the size of it*/
-  height: 2rem;
+  height: 2.5rem;
   /* margin-right: 0.3rem; */
   margin-right: 10px;
   border-radius: 50%;
@@ -75,7 +97,7 @@ label>input[type="radio"]+*::before {
 }
 
 label>input[type="radio"]:checked+*::before {
-  background: radial-gradient(#4f8a8b 0%, teal 40%, transparent 50%, transparent);
+  background: radial-gradient(#4f8a8b 0%, #4f8a8b 40%, transparent 50%, transparent);
   /* border-color: teal; */
   /* background-color: #4f8a8b; */
   border-color: #4f8a8b;
@@ -90,3 +112,35 @@ label {
   /* margin: 10px; */
   width: 50%;
 }
+
+.check1 {
+  width: 40%;
+  display: inline;
+}
+
+.check2 {
+  width: 40%;
+  display: inline;
+  margin: 0 0 0 50px;
+}
+
+#joke {
+  margin: 0 15px;
+}
+
+.footer {
+  text-align: center;
+  /* font-family: "Open Sans Light", sans-serif; */
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+/*
+@media (min-width: 640px) {
+  body {
+    font-size: 28pt;
+  }
+} */
