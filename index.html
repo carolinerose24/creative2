@@ -3,11 +3,73 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Creative 2</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 
+
+
+  <div class="title-bar">
+    <h1>Joke API</h1>
+  </div>
+
+
+
+  <div class="page-wrap">
+
+
+    <h2>Click a button to generate a joke!</h2>
+
+    <form class="buttons">
+      <button id="programmingSubmit" type="button">Programming</button>
+      <button id="punSubmit" type="button">Pun</button>
+      <button id="darkSubmit" type="button">Dark</button>
+      <button id="miscSubmit" type="button">Miscellaneous</button>
+
+      <!-- <input id="programmingSubmit"value="Programming"></input> -->
+      <!-- <input id="punSubmit" type="submit" value="Pun"></input> -->
+      <!-- <input id="darkSubmit" type="submit" value="Dark"></input> -->
+      <!-- <input id="miscSubmit" type="submit" value="Miscellaneous"></input> -->
+      <br>
+    </form>
+
+
+    <form class="radio">
+      <!-- <input id="single-radio" type="radio" value="single" name="type" checked></input>
+      <label for="single-radio">Single</label><br>
+      <input id="twopart-radio" type="radio" value="twopart" name="type"></input>
+      <label for="twopart-radio">Two part</label><br> -->
+
+      <label>
+        <input id="single-radio" type="radio" value="single" name="type" checked></input>
+        <span>Single</span>
+      </label>
+
+      <label>
+        <input id="single-radio" type="radio" value="single" name="type"></input>
+        <span>Twopart</span>
+      </label>
+
+    </form>
+
+    <div class="joke" id="joke">
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+
+  </div>
+
+
+
+
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="script.js"></script>
 </body>
 
 </html>
